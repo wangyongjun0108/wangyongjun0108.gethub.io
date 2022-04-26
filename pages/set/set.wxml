@@ -1,0 +1,8 @@
+<!--pages/set/set.wxml-->
+
+
+<view class="box">
+  <view class="name">雷达设置</view>
+  <slider class="slider1" value="5" max="10" show-value="true" bindchange="xWarning"></slider>
+  <slider class="slider2" value="20" max="60" show-value="true" bindchange="yWarning"></slider>
+</view>

@@ -1,0 +1,29 @@
+<!--pages/text/text.wxml-->
+<view class="boxOuter">
+  <view class="boxInner">
+    <view class="draw">
+      <view class="axisX">
+        <view class="line-y1"></view>
+        <view class="line-y2"></view>
+        <view class="line-y3"></view>
+        <view class="line-y4"></view>
+        <view class="line-y5"></view>
+        <view class="line-x1"></view>
+        <view class="line-x2"></view>
+        <view class="line-x3"></view>
+        <view class="line-x4"></view>
+        <view class="line-x5"></view>
+        <view class="line-x6"></view>
+        <view class="line-x7"></view>
+        <view class="line-x8"></view>
+      </view>
+      <view class="target" >
+        <block wx:for="{{targetNumber}}" wx:key="index">
+          <view class="i" hidden="{{isHidden[index]}}" style="margin-left: {{x[index] + 'rpx'}}; margin-top: {{y[index] + 'rpx'}}; background-color: {{color[index]}}"></view>
+        </block>
+      </view>
+      <view class="leftLight" style="background-color: {{leftLight}};"></view>
+      <view class="rightLight" style="background-color: {{rightLight}};"></view>
+    </view>
+  </view>
+</view>

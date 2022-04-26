@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/bluetooth/bluetooth",
+    "pages/set/set",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "雷信科技",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "雷达轨迹图",
+      "iconPath": "/img/首页 .png",
+      "selectedIconPath": "/img/首页  (1).png"
+    },
+    {
+      "pagePath": "pages/bluetooth/bluetooth",
+      "text": "蓝牙设置",
+      "iconPath": "/img/设置.png",
+      "selectedIconPath": "/img/设置 (1).png"
+    },
+    {
+      "pagePath": "pages/set/set",
+      "text": "轨迹设置",
+      "iconPath": "/img/设置.png",
+      "selectedIconPath": "/img/设置 (1).png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "个人",
+      "iconPath": "/img/个人.png",
+      "selectedIconPath": "/img/个人 (1).png"
+    }
+  ]
+  }
+}

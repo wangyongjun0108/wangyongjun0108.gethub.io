@@ -1,0 +1,13 @@
+<!--pages/bluetooth/bluetooth.wxml-->
+
+<view>
+  <button type="primary" class="button" bindtap="InitBluetooth">打开蓝牙设备</button>
+  <!-- <button type="primary" class="button" bindtap="SearchBluetooth">2搜索蓝牙设备</button> -->
+  <block wx:for="{{devices}}" wx:key="index">
+    <button type="primary" class="button" id="{{item.deviceId}}" bindtap="bluetoothConnect" style="background-color: red;">连接{{item.name}}</button>
+  </block>
+  <button type="primary" class="button1" bindtap="closeBuletooth">关闭蓝牙设备</button>
+  <!-- <button type="primary" class="button" bindtap="reseiveBluetoothData">3接收数据</button> -->
+  
+  <view class="myview">数据：{{arrayBuffer}}</view>
+</view>

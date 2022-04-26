@@ -1,0 +1,325 @@
+/* pages/text/text.wxss */
+
+.boxOuter {
+  width: 750rpx;
+  height: 1334rpx;
+  background-color: burlywood;
+  position: relative;
+}
+
+.boxInner {
+  width: 600rpx;
+  height: 1334rpx;
+  background-color: rgb(66, 88, 88);
+  margin: 0rpx 75rpx;
+  position: absolute;
+}
+
+.draw {
+  width: 400rpx;
+  height: 1250rpx;
+  background-color: rgb(66, 88, 88);
+  /* border: 4rpx solid white; */
+  box-sizing: border-box;
+  position: relative;
+  margin: 60rpx 100rpx;
+}
+
+.i {
+  position: absolute;
+  width: 20rpx;
+  height: 20rpx;
+  /* background-color: rgb(63, 245, 8); */
+  border-radius: 50rpx;
+}
+
+.leftLight {
+  margin: 100rpx -80rpx;
+  position: absolute;
+  width: 50rpx;
+  height: 100rpx;
+  border-radius: 20%;
+  /* background-color: red; */
+}
+
+.rightLight {
+  margin: 100rpx 420rpx;
+  position: absolute;
+  width: 50rpx;
+  height: 100rpx;
+  border-radius: 20%;
+  /* background-color: red; */
+}
+
+.line-y1 {
+  position: absolute;
+  width: 0rpx;
+  height: 1250rpx;
+  border: 1rpx solid white;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.line-y1::before {
+  display: block;
+  content: "-10"; 
+  margin-top: -50rpx;
+  margin-left: -30rpx;
+  color: white;
+}
+
+.line-y2 {
+  position: absolute;
+  width: 0rpx;
+  height: 1250rpx;
+  border: 1rpx dashed white;
+  box-sizing: border-box;
+  margin-left: 100rpx;
+}
+
+.line-y2::before {
+  display: block;
+  content: "-5"; 
+  /* margin: -20rpx -50rpx; */
+  margin-top: -50rpx;
+  margin-left: -20rpx;
+  color: white;
+}
+
+.line-y3 {
+  position: absolute;
+  width: 0rpx;
+  height: 1250rpx;
+  border: 1rpx solid rgb(235, 213, 15);
+  box-sizing: border-box;
+  margin-left: 200rpx;
+}
+
+.line-y3::before {
+  display: block;
+  content: "0"; 
+  /* margin: -20rpx -50rpx; */
+  margin-top: -50rpx;
+  margin-left: -10rpx;
+  color: white;
+}
+
+.line-y4 {
+  position: absolute;
+  width: 0rpx;
+  height: 1250rpx;
+  border: 1rpx dashed white;
+  box-sizing: border-box;
+  margin-left: 300rpx;
+}
+
+.line-y4::before {
+  display: block;
+  content: "5"; 
+  /* margin: -20rpx -50rpx; */
+  margin-top: -50rpx;
+  margin-left: -10rpx;
+  color: white;
+}
+
+.line-y5 {
+  position: absolute;
+  width: 0rpx;
+  height: 1250rpx;
+  border: 1rpx solid white;
+  box-sizing: border-box;
+  margin-left: 400rpx;
+}
+
+.line-y5::before {
+  display: block;
+  content: "10"; 
+  margin-top: -50rpx;
+  margin-left: -20rpx;
+  color: white;
+}
+
+.line-x1 {
+  position: absolute;
+  width: 400rpx;
+  height: 0;
+  border: 1rpx solid white;
+  box-sizing: border-box;
+}
+
+.line-x2 {
+  position: absolute;
+  width: 400rpx;
+  height: 0;
+  border: 1rpx solid white;
+  box-sizing: border-box;
+  margin-top: 50rpx;
+}
+
+.line-x2::before {
+  display: block;
+  content: "0"; 
+  margin-top: -20rpx;
+  margin-left: -40rpx;
+  color: white;
+}
+
+.line-x2::after {
+  display: block;
+  content: "0"; 
+  margin-top: -40rpx;
+  margin-left: 420rpx;
+  color: white;
+}
+
+.line-x3 {
+  position: absolute;
+  width: 400rpx;
+  height: 0;
+  border: 1rpx dashed white;
+  box-sizing: border-box;
+  margin-top: 250rpx;
+}
+
+.line-x3::before {
+  display: block;
+  content: "10"; 
+  margin-top: -20rpx;
+  margin-left: -60rpx;
+  color: white;
+}
+
+.line-x3::after {
+  display: block;
+  content: "10"; 
+  margin-top: -40rpx;
+  margin-left: 420rpx;
+  color: white;
+}
+
+.line-x4 {
+  position: absolute;
+  width: 400rpx;
+  height: 0;
+  border: 1rpx dashed white;
+  box-sizing: border-box;
+  margin-top: 450rpx;
+}
+
+.line-x4::before {
+  display: block;
+  content: "20"; 
+  margin-top: -20rpx;
+  margin-left: -60rpx;
+  color: white;
+}
+
+.line-x4::after {
+  display: block;
+  content: "20"; 
+  margin-top: -40rpx;
+  margin-left: 420rpx;
+  color: white;
+}
+
+.line-x5 {
+  position: absolute;
+  width: 400rpx;
+  height: 0;
+  border: 1rpx dashed white;
+  box-sizing: border-box;
+  margin-top: 650rpx;
+}
+
+.line-x5::before {
+  display: block;
+  content: "30"; 
+  margin-top: -20rpx;
+  margin-left: -60rpx;
+  color: white;
+}
+
+.line-x5::after {
+  display: block;
+  content: "30"; 
+  margin-top: -40rpx;
+  margin-left: 420rpx;
+  color: white;
+}
+
+.line-x6 {
+  position: absolute;
+  width: 400rpx;
+  height: 0;
+  border: 1rpx dashed white;
+  box-sizing: border-box;
+  margin-top: 850rpx;
+}
+
+.line-x6::before {
+  display: block;
+  content: "40"; 
+  margin-top: -20rpx;
+  margin-left: -60rpx;
+  color: white;
+}
+
+.line-x6::after {
+  display: block;
+  content: "40"; 
+  margin-top: -40rpx;
+  margin-left: 420rpx;
+  color: white;
+}
+
+.line-x7 {
+  position: absolute;
+  width: 400rpx;
+  height: 0;
+  border: 1rpx dashed white;
+  box-sizing: border-box;
+  margin-top: 1050rpx;
+}
+
+.line-x7::before {
+  display: block;
+  content: "50"; 
+  margin-top: -20rpx;
+  margin-left: -60rpx;
+  color: white;
+}
+
+.line-x7::after {
+  display: block;
+  content: "50"; 
+  margin-top: -40rpx;
+  margin-left: 420rpx;
+  color: white;
+}
+
+.line-x8 {
+  position: absolute;
+  width: 404rpx;
+  height: 0;
+  border: 1rpx dashed white;
+  box-sizing: border-box;
+  margin-top: 1250rpx;
+}
+
+.line-x8::before {
+  display: block;
+  content: "60"; 
+  margin-top: -20rpx;
+  margin-left: -60rpx;
+  color: white;
+}
+
+.line-x8::after {
+  display: block;
+  content: "60"; 
+  margin-top: -40rpx;
+  margin-left: 420rpx;
+  color: white;
+}
+
+

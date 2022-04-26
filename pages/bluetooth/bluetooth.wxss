@@ -1,0 +1,18 @@
+/* pages/bluetooth/bluetooth.wxss */
+
+text {
+  height: 400rpx;
+  word-break: break-all;  /*自动换行*/
+}
+.button {
+  margin-top: 20rpx;
+}
+
+.button1 {
+  margin-top: 20rpx;
+}
+
+.myview {
+  height: 400rpx;
+  word-break: break-all;  /*自动换行*/
+}

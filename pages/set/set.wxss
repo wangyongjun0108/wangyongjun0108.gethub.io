@@ -1,0 +1,31 @@
+/* pages/set/set.wxss */
+
+.name {
+  margin: 50rpx 300rpx;
+}
+
+.slider1 {
+  margin-top: 100rpx;
+  margin-left: 80rpx;
+  width: 600rpx;
+}
+
+.slider1::before {
+  position: absolute;
+  content: "雷达y方向警报范围：";
+  margin-top: -80rpx;
+  margin-left: -50rpx;
+}
+
+.slider2 {
+  margin-top: 150rpx;
+  margin-left: 80rpx;
+  width: 600rpx;
+}
+
+.slider2::before {
+  position: absolute;
+  content: "雷达X方向警报范围：";
+  margin-top: -80rpx;
+  margin-left: -50rpx;
+}
